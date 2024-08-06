@@ -1,0 +1,176 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+    color: seashell;
+    text-align: center;
+  }
+
+/* Header Section  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;  
+    top: 0px;  
+    left: 0px;  
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
+
+.header-logo img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+/* Mission Section */
+
+main {
+    top: 70px;
+}
+.mission {
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-picture {
+    width: 100%;
+    height: 100%;
+}
+
+.main-picture img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.our-mission {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: column;
+    position: absolute;
+}
+
+.our-mission h2 {
+    margin: 10px auto;
+}
+
+.our-mission h4 {
+    margin: 10px auto;
+}
+
+/* Tea Types - Tea of The Month */
+.tea-section {
+    margin: 64px auto;
+}
+.tea-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.tea-types img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-types h4 {
+    margin-top: 10px;
+}
+
+/* Locations Section */
+
+.locations {
+    height: 500px;
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
+
+.locations img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.locations-picture {
+    width: 100%;
+    height: 100%;
+}
+
+.locations-main {
+    position: absolute;
+    width: 100%;
+}
+
+
+.locations-names {
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+
+.locations-main h2 {
+    padding-top: 48px;
+}
+
+/* Footer Section */
+
+.contact-info {
+    height: 200px;
+}
+
+.footer-copyright {
+    margin-left: 20px;
+    text-align: left;
+}
